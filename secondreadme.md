@@ -11,6 +11,11 @@ Workplace mental health is a critical issue in the tech industry. Surveys by the
 3. **Interactive Dashboard**: Present your analysis in a clear, interactive visualization dashboard (preferred) to allow exploration of the data. If a dashboard is not feasible, provide a well-organized static report with charts.
 4. **Predictive Modeling (Bonus)**: (Optional) Apply a forecasting or advanced analytics model to predict future workplace mental health trends (e.g., predicting 2021 sentiment or trend continuation) based on the 2016–2020 data.
 
+## Dataset
+
+The analysis uses the publicly available Kaggle dataset:
+
+- [**Mental Health in Tech Dashboard (2016-2020)**](https://www.kaggle.com/datasets/sivas1292/mental-health-in-tech-dashboard-2016-to-2020)
 ## Dataset Description
 
 The Mental Health in Tech Dashboard (2016-2020) dataset is a compilation of annual surveys conducted by OSMI from 2016 through 2020. It includes multiple-choice and free-response answers from tech employees about mental health. Key fields include:
