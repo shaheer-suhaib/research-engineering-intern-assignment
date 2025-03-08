@@ -93,9 +93,20 @@ Your submission will be evaluated based on the following criteria:
 - **Communication & Documentation (15%)**: Clarity of writing in the report and comments in code. The narrative should explain what you found and how you found it.
 - **Technical Soundness (10%)**: Correct use of data science techniques. The code should run without errors and be reasonably optimized.
 - **Bonus: Predictive Modeling (Up to +10%)**: Successfully implementing the optional predictive task. Points will be awarded for a reasonable modeling approach, correct evaluation, and interpreting the results.
+## Submission Requirements
+You will submit all your deleiverables on github repo, and please do mail me the link to your github repo at khawajamurad@outlook.com
+Please ensure you include:
 
+1.A detailed README file (with screenshots of your solution, a hosted web platform).
+2. A text-based explanation of your code and thought process underlying system design.
+3. A link to a video recording of your dashboard hosted on YouTube or Google Drive.
+Both of these last two make it easier for us to run your code and evaluate the assignment.
 ### Grading Note
 
 A submission that meets all the core requirements (Tasks 1–3) with clarity and correctness can earn full credit (100%). The bonus task is truly extra. We will particularly reward thoughtful analysis – showing that you can think like a data scientist. This means exploring the data deeply, verifying assumptions, and not just generating charts but also explaining and interpreting them. Make sure your conclusions are supported by the data.
+Focus on the analysis you are presenting and the story you are telling us through it. A well-designed and scalable system is more important than a complex one with a ton of features. Consider using innovative technologies in a user-friendly manner to create unique features for your platform such as AI-generated summaries that are adaptable to the data a user searches for, using your platform.
 
+Presentation matters! Make sure your submission is easy to understand. Create an intuitive and meaningful README file or a Wiki that can be used to review your solution. Host it so it is accessible by anyone. Ensure that you share a video demo even if it is hosted, so that users understand how to interpret the insights you present.
 Good luck, and enjoy the analysis! This project not only tests your technical skills (NLP, data analysis, visualization) but also your ability to draw meaningful insights from data – a key skill for a research engineer in data science. We look forward to seeing your interactive dashboards and findings on this important topic of mental health in tech.
+Good Luck!
+
