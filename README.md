@@ -1,4 +1,4 @@
-# Assignment: Mental Health in Tech (2016–2020) Sentiment & Trends Analysis
+# Research Engineering Intern Assignment : Mental Health in Tech (2016–2020) Sentiment & Trends Analysis
 
 ## Background & Context
 
