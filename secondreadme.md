@@ -1,82 +1,96 @@
-Assignment: Mental Health in Tech (2016–2020) Sentiment & Trends Analysis
+# Assignment: Mental Health in Tech (2016–2020) Sentiment & Trends Analysis
 
-Background & Context
+## Background & Context
 
-Workplace mental health is a critical issue in the tech industry. Surveys by the Open Sourcing Mental Illness (OSMI) organization have shown that over half of tech professionals reported having a diagnosed mental health condition in 2016​
-GITHUB.COM
-. The OSMI multi-year survey data (2016–2020) captures employees’ attitudes toward mental health in the workplace and the prevalence of mental health conditions​
-OSMHHELP.ORG
-. This assignment uses the Kaggle dataset "Mental Health in Tech Dashboard (2016-2020)" to explore these issues. You will perform sentiment analysis on survey responses, analyze trends in workplace mental health over time and across demographics, and present your findings in an interactive dashboard (or a static report). An optional bonus task invites you to apply predictive modeling to forecast future mental health trends.
-Objectives
+Workplace mental health is a critical issue in the tech industry. Surveys by the Open Sourcing Mental Illness (OSMI) organization have shown that over half of tech professionals reported having a diagnosed mental health condition in 2016 [GITHUB.COM]. The OSMI multi-year survey data (2016–2020) captures employees’ attitudes toward mental health in the workplace and the prevalence of mental health conditions [OSMHHELP.ORG]. This assignment uses the Kaggle dataset "Mental Health in Tech Dashboard (2016-2020)" to explore these issues. You will perform sentiment analysis on survey responses, analyze trends in workplace mental health over time and across demographics, and present your findings in an interactive dashboard (or a static report). An optional bonus task invites you to apply predictive modeling to forecast future mental health trends.
 
-Sentiment Analysis: Use NLP techniques to classify the sentiment of employee responses related to workplace mental health (e.g., comments about workplace support or personal experiences).
-Trend Analysis: Examine how workplace mental health metrics and attitudes have changed from 2016 to 2020. Compare trends across different companies and demographic groups (such as gender, age, or job role).
-Interactive Dashboard: Present your analysis in a clear, interactive visualization dashboard (preferred) to allow exploration of the data. If a dashboard is not feasible, provide a well-organized static report with charts.
-Predictive Modeling (Bonus): (Optional) Apply a forecasting or advanced analytics model to predict future workplace mental health trends (e.g., predicting 2021 sentiment or trend continuation) based on the 2016–2020 data.
-Dataset Description
+## Objectives
 
-The Mental Health in Tech Dashboard (2016-2020) dataset is a compilation of annual surveys conducted by OSMI from 2016 through 2020. It includes multiple-choice and free-response answers from tech employees about mental health. Key fields include: demographic information (age, gender, role, country), company info (company name or size), and responses to questions about mental health (e.g., if they have a mental health condition, workplace support availability, attitudes toward discussing mental health, etc.). Some surveys also contain open-ended text responses about the employees’ experiences or opinions. These text fields will be the basis for sentiment analysis. The data is organized by year, allowing a year-over-year comparison of trends. Ensure you review the dataset documentation on Kaggle for detailed schema and question descriptions.
-Tasks and Deliverables
+1. **Sentiment Analysis**: Use NLP techniques to classify the sentiment of employee responses related to workplace mental health (e.g., comments about workplace support or personal experiences).
+2. **Trend Analysis**: Examine how workplace mental health metrics and attitudes have changed from 2016 to 2020. Compare trends across different companies and demographic groups (such as gender, age, or job role).
+3. **Interactive Dashboard**: Present your analysis in a clear, interactive visualization dashboard (preferred) to allow exploration of the data. If a dashboard is not feasible, provide a well-organized static report with charts.
+4. **Predictive Modeling (Bonus)**: (Optional) Apply a forecasting or advanced analytics model to predict future workplace mental health trends (e.g., predicting 2021 sentiment or trend continuation) based on the 2016–2020 data.
+
+## Dataset Description
+
+The Mental Health in Tech Dashboard (2016-2020) dataset is a compilation of annual surveys conducted by OSMI from 2016 through 2020. It includes multiple-choice and free-response answers from tech employees about mental health. Key fields include:
+- Demographic information (age, gender, role, country)
+- Company info (company name or size)
+- Responses to questions about mental health (e.g., if they have a mental health condition, workplace support availability, attitudes toward discussing mental health, etc.)
+- Open-ended text responses about the employees’ experiences or opinions
+
+The data is organized by year, allowing a year-over-year comparison of trends. Ensure you review the dataset documentation on Kaggle for detailed schema and question descriptions.
+
+## Tasks and Deliverables
 
 Your assignment is to produce an analysis and report covering the following components:
-1. Sentiment Analysis (NLP)
-Data Preparation: Identify survey questions or fields that contain free-text responses regarding mental health in the workplace (for example, an optional comments section or any open-ended question about experiences). Clean and preprocess this text data (remove noise, handle missing values, etc.).
-Sentiment Classification: Apply NLP techniques to determine the sentiment of each response. You may use a pre-trained sentiment analysis model or create a simple classifier. For instance, you can categorize sentiment as positive, negative, or neutral. Clearly document which tool or library you use (e.g., NLTK/VADER, TextBlob, spaCy, or transformer models) and how you validated its accuracy.
-Analysis of Sentiments: Summarize the overall sentiment distribution. Determine if the majority of comments are positive or negative regarding workplace mental health. Highlight examples of common positive sentiments (e.g. praising company support) versus negative sentiments (e.g. frustration with lack of support). If possible, break down sentiment by year or by demographic group to see if sentiment is improving or worsening over time. For example, you might find that sentiment became more positive from 2016 to 2019 but dipped in 2020, and you should discuss possible reasons or implications.
-2. Workplace Mental Health Trends (2016–2020)
-Year-over-Year Trends: Using the survey data, track key metrics across 2016, 2017, 2018, 2019, and 2020. Focus on metrics that reflect mental health in the workplace. For example:
-Prevalence of Mental Health Conditions: percentage of respondents each year who reported having a mental health condition (diagnosed or self-reported).
-Workplace Support: percentage of respondents who feel their employer provides adequate mental health resources or support.
-Comfort Discussing Mental Health: percentage of respondents who would feel comfortable discussing a mental health issue with their team or manager.
-Policy Awareness: percentage who know about mental health care options or policies in their workplace.
-Visualization of Trends: Create line charts or bar charts to visualize how these metrics change over time. Each chart should have time (years) on one axis and the metric on the other. Include annotations or labels to highlight notable changes (for instance, a rise or drop in 2020). Discuss any trends observed – e.g., are tech companies becoming more open about mental health over time, or is there stagnation? Relate trends to possible real-world contexts when relevant (for instance, note that 2020’s survey had fewer responses due to a rough year​
-OSMHHELP.ORG
- and occurred during the COVID-19 pandemic, which might influence results).
-Company Comparison: If the dataset includes the company name or an anonymized company identifier, compare trends across different companies or company sizes. For example, you might compare the mental health support scores between large tech firms and startups, or see if any particular company had notably positive or negative survey responses. Present comparisons using appropriate charts (grouped bar charts, multiple line plots, etc.). Ensure anonymity if required (if company names are sensitive, consider grouping by size or industry segment instead of naming specific companies).
-Demographic Insights: Analyze how mental health responses vary by demographics. For instance, compare the prevalence of mental health conditions or the sentiment of responses between different genders or age groups. You could find patterns such as one gender reporting higher rates of mental health issues than another (as an example, one analysis of 2016 data found female respondents reported higher incidence of mental health disorders than males​
-RPUBS.COM
-). Explore at least one demographic factor in depth. Use charts (e.g., pie charts, segmented bars, or facet grids) to illustrate these differences. Discuss what these differences might mean for targeted mental health initiatives (e.g., if younger employees report more openness to discussing mental health than older employees, what could employers do about it?).
-3. Interactive Dashboard Presentation
-Design an Interactive Dashboard: Build an interactive dashboard to showcase the findings from your sentiment analysis and trends analysis. The dashboard should allow users to explore the data visually. For example, it could include interactive filters for year, company, or demographic to update the charts dynamically. You might use tools like Plotly Dash, Streamlit, Tableau, or Power BI for this component – choose whatever you are comfortable with. If coding in Python, libraries such as Plotly (for interactive charts) or Panel/Voila for turning notebooks into dashboards can be helpful.
-Dashboard Content: At minimum, include the following in your dashboard:
-A summary Sentiment Analysis view showing overall sentiment distribution (e.g., a gauge or pie chart of positive/negative/neutral) and example quotes for each sentiment category.
-A Time Trends view with an interactive time series chart (or a set of charts) for the key metrics (from Task 2). Users should be able to select different metrics or demographics to see corresponding trends.
-A Comparison view where a user can compare two or more companies or demographic groups on a selected metric. For instance, a dropdown to choose a demographic (like gender) and see a side-by-side comparison of responses.
-Any other insightful visualization you find relevant (such as a map if geographic data is present, or a word cloud of common terms in the comments).
-Interactivity and Usability: Make sure the dashboard is well-labeled and easy to use. Include titles, axis labels, and brief descriptions/tooltips so that someone not familiar with the project can still understand the charts. Aim for a clean layout (consider grouping related charts on tabs or sections).
-Static Report Alternative: If creating an interactive dashboard is not feasible, you may submit a static report (e.g., a Jupyter Notebook saved as HTML/PDF or a slide deck) containing well-formatted static charts for all the above components. The static report should still be logically organized (e.g., sections for sentiment analysis, trends, comparisons) and include commentary. Note: The interactive dashboard is highly preferred and will be looked upon favorably in evaluation, but a clear and insightful static report can earn full credit for the core components.
-4. Predictive Modeling (Bonus)
-This part is optional and for bonus credit (approximately +10% to the assignment score). Complete it if you have extra time and want to challenge yourself.
-Forecast Future Trends: Using the data from 2016–2020, attempt to predict a mental health metric for a future time period (e.g., forecast the 2021 values of key metrics). You can select any interesting metric from your trend analysis – for example, you might predict “What will the percentage of tech employees willing to discuss mental health at work be in 2021?”
-Model Choices: You might use time series forecasting (if you aggregate yearly metrics, methods like ARIMA or Facebook Prophet could be applied), or train a regression model using year and demographic factors as features to predict an outcome. Another idea is using a classification model to predict individual outcomes (e.g., predict if a person will seek therapy or not, based on 2016–2020 data patterns). Ensure you justify why the modeling approach is appropriate for your question.
-Evaluation of Predictions: Since we may not have actual 2021 survey data in this dataset for comparison, focus on how well your model fits the existing data and whether the predictions seem reasonable. If possible, partition the data (train on 2016–2019 and treat 2020 as a “future” test) to simulate forecasting and report the accuracy or error metrics. Discuss any trends the model found (e.g., “the model predicts a slight increase in X for 2021, suggesting an improving trend” or “the model indicates that company size is a strong predictor of Y”).
-Visualization: Include the forecast in your dashboard or report. For example, you can show a line chart of 2016–2020 actual values and a dotted line for 2021 predicted value. Make sure to label it clearly as a forecast. If doing classification, report performance (accuracy, F1, etc.) and perhaps show feature importance.
-Submission Instructions
+
+### 1. Sentiment Analysis (NLP)
+
+- **Data Preparation**: Identify survey questions or fields that contain free-text responses regarding mental health in the workplace. Clean and preprocess this text data (remove noise, handle missing values, etc.).
+- **Sentiment Classification**: Apply NLP techniques to determine the sentiment of each response. You may use a pre-trained sentiment analysis model or create a simple classifier. Categorize sentiment as positive, negative, or neutral. Document which tool or library you use (e.g., NLTK/VADER, TextBlob, spaCy, or transformer models) and how you validated its accuracy.
+- **Analysis of Sentiments**: Summarize the overall sentiment distribution. Determine if the majority of comments are positive or negative regarding workplace mental health. Highlight examples of common positive sentiments (e.g., praising company support) versus negative sentiments (e.g., frustration with lack of support). Break down sentiment by year or by demographic group to see if sentiment is improving or worsening over time.
+
+### 2. Workplace Mental Health Trends (2016–2020)
+
+- **Year-over-Year Trends**: Track key metrics across 2016, 2017, 2018, 2019, and 2020. Focus on metrics that reflect mental health in the workplace, such as:
+  - Prevalence of Mental Health Conditions
+  - Workplace Support
+  - Comfort Discussing Mental Health
+  - Policy Awareness
+- **Visualization of Trends**: Create line charts or bar charts to visualize how these metrics change over time. Include annotations or labels to highlight notable changes. Discuss any trends observed and relate them to possible real-world contexts.
+- **Company Comparison**: Compare trends across different companies or company sizes. Present comparisons using appropriate charts (grouped bar charts, multiple line plots, etc.). Ensure anonymity if required.
+- **Demographic Insights**: Analyze how mental health responses vary by demographics. Explore at least one demographic factor in depth and use charts to illustrate these differences. Discuss what these differences might mean for targeted mental health initiatives.
+
+### 3. Interactive Dashboard Presentation
+
+- **Design an Interactive Dashboard**: Build an interactive dashboard to showcase the findings from your sentiment analysis and trends analysis. The dashboard should allow users to explore the data visually.
+- **Dashboard Content**: Include the following in your dashboard:
+  - A summary Sentiment Analysis view
+  - A Time Trends view with an interactive time series chart
+  - A Comparison view for comparing companies or demographic groups
+  - Any other insightful visualization you find relevant
+- **Interactivity and Usability**: Ensure the dashboard is well-labeled and easy to use. Include titles, axis labels, and brief descriptions/tooltips. Aim for a clean layout.
+- **Static Report Alternative**: If creating an interactive dashboard is not feasible, submit a static report containing well-formatted static charts for all the above components.
+
+### 4. Predictive Modeling (Bonus)
+
+- **Forecast Future Trends**: Using the data from 2016–2020, attempt to predict a mental health metric for a future time period (e.g., forecast the 2021 values of key metrics).
+- **Model Choices**: Use time series forecasting or train a regression model using year and demographic factors as features to predict an outcome. Justify why the modeling approach is appropriate for your question.
+- **Evaluation of Predictions**: Focus on how well your model fits the existing data and whether the predictions seem reasonable. Report the accuracy or error metrics.
+- **Visualization**: Include the forecast in your dashboard or report. Show a line chart of 2016–2020 actual values and a dotted line for 2021 predicted value.
+
+## Submission Instructions
 
 Please include the following in your submission:
-Code and Analysis: All code used for data processing, analysis, and visualization. This will likely be in the form of a Jupyter Notebook or Python scripts. If you used R or another language, include those scripts or notebooks. Make sure your code is well-documented with comments and organized into sections (corresponding to the tasks).
-Interactive Dashboard: If you built a dashboard:
-For web-app frameworks (Dash, Streamlit, etc.), provide your source code files and instructions to run it locally. Ensure that the dashboard can be run by the evaluator without needing proprietary data (you can assume the evaluator will also have the Kaggle dataset). Include a README.md with setup steps (e.g., required packages, how to launch the app).
-If you used an online tool (like Tableau Public or a deployed web app), provide a link and a backup screenshot in case the live link is inaccessible. Make sure the link has appropriate access (not behind a login).
-Report: Whether or not you built an interactive dashboard, also submit a report documenting your findings. This can be in the form of:
-A PDF exported from your Jupyter Notebook (ensure it includes all markdown explanations and charts) or
-A separate written report (PDF or Word) with embedded figures and discussion.
-The report should be well-structured (with headings matching the task sections) and should explain your insights in a clear, concise manner. Imagine this report is for a technical manager interested in what you discovered.
-Rubric Checklist: (Optional but recommended) Include a brief section (could be in the README or at the end of your report) referencing the rubric criteria and noting where in your submission each criterion is addressed. This helps ensure you haven’t missed anything important. For example, you could list each rubric item and point to the section of code or report fulfilling it.
-Important Notes:
-Data Privacy: Do not share any raw data publicly that might violate privacy. The dataset is public, but if any question contains sensitive personal information, be cautious about how you present it. For example, if individual company names are present and responses are negative, consider anonymizing as “Company A, B, C” for the report.
-Reproducibility: Your code should run on another machine with the dataset. Do not hard-code file paths; use relative paths and include instructions if any non-standard steps are required to get the data (for example, if using Kaggle’s API to download, note that).
-Clarity: Use markdown cells and comments liberally to explain each step of your analysis. Someone reading your notebook or report should understand what you did and why, without having to ask you for explanation.
-Limitations: It’s okay if some aspects were challenging – for instance, sentiment analysis might not be perfect if the responses are short. In your report, mention any limitations or assumptions (e.g., “Sentiment model might misclassify sarcastic comments” or “2020 data is smaller which may affect trend reliability”). Demonstrating awareness of data and method limitations is considered good research practice.
-Extra Credit: If you did additional analysis beyond the scope (e.g., topic modeling on the text, or deep dive into a specific year’s survey questions), you can briefly include it in an appendix or an extra section. This is not required, but we encourage intellectual curiosity.
-Evaluation Rubric
+
+- **Code and Analysis**: All code used for data processing, analysis, and visualization. Ensure your code is well-documented with comments and organized into sections.
+- **Interactive Dashboard**: If you built a dashboard, provide your source code files and instructions to run it locally. Include a README.md with setup steps. If you used an online tool, provide a link and a backup screenshot.
+- **Report**: Submit a report documenting your findings. This can be in the form of a PDF exported from your Jupyter Notebook or a separate written report with embedded figures and discussion.
+- **Rubric Checklist**: (Optional but recommended) Include a brief section referencing the rubric criteria and noting where in your submission each criterion is addressed.
+
+### Important Notes
+
+- **Data Privacy**: Do not share any raw data publicly that might violate privacy.
+- **Reproducibility**: Your code should run on another machine with the dataset. Do not hard-code file paths; use relative paths and include instructions if any non-standard steps are required to get the data.
+- **Clarity**: Use markdown cells and comments liberally to explain each step of your analysis.
+- **Limitations**: Mention any limitations or assumptions in your report.
+- **Extra Credit**: If you did additional analysis beyond the scope, briefly include it in an appendix or an extra section.
+
+## Evaluation Rubric
 
 Your submission will be evaluated based on the following criteria:
-Data Cleaning & Understanding (10%): Proper handling of data loading, missing values, and outliers. Evidence of understanding the dataset structure and context (e.g., explaining what certain columns mean, justifying any data filtering).
-Sentiment Analysis (20%): Quality of NLP analysis. This includes correct preprocessing of text, a sensible approach to classify sentiment, and accurate interpretation of results. Higher credit if you evaluate the sentiment model’s performance or provide insightful examples.
-Trend Analysis & Insights (25%): Depth of analysis for year-over-year trends, company comparisons, and demographic differences. Clear identification of at least two meaningful trends or patterns in the data, supported by statistics or visualizations. Discussion should connect the data to potential real-world implications (showing a “research mindset”).
-Visualizations & Dashboard (20%): Quality and clarity of visual presentations. Plots should be appropriate, well-labeled, and easy to read. The interactive dashboard (or static visual report) should be logically organized and allow a viewer to grasp key results. Interactive elements (if present) should function correctly. Note: An interactive dashboard that is well-executed can earn full marks here; a static report will need exceptionally clear and insightful visuals to earn the same credit.
-Communication & Documentation (15%): Clarity of writing in the report and comments in code. The narrative should explain what you found and how you found it. Good use of headings, bullet points, and brevity where appropriate (remember, your audience might be busy – make it easy for them to get the point). Also, integrating external context or research (e.g., referencing known industry trends or relevant studies) will strengthen your analysis. Proper citation of any external resources (articles, packages, blogs) that influenced your approach is expected.
-Technical Soundness (10%): Correct use of data science techniques. This includes using appropriate methods for analysis (e.g., not misusing a statistical test, not misinterpreting correlation as causation). The code should run without errors and be reasonably optimized (no unnecessary extreme slowdowns).
-Bonus: Predictive Modeling (Up to +10%): Successfully implementing the optional predictive task. Points will be awarded for a reasonable modeling approach, correct evaluation (using suitable metrics or validation), and interpreting the results. Even if the model isn’t highly accurate, demonstrating the process and what was learned from it is valuable. These bonus points can lift your grade but will not penalize you if omitted.
-Total: 100% (plus up to 10% extra credit) Grading Note: A submission that meets all the core requirements (Tasks 1–3) with clarity and correctness can earn full credit (100%). The bonus task is truly extra. We will particularly reward thoughtful analysis – showing that you can think like a data scientist. This means: exploring the data deeply, verifying assumptions, and not just generating charts but also explaining and interpreting them. Make sure your conclusions are supported by the data. If you claim “X improved over time,” point to the evidence. If something is surprising or conflicting, acknowledge it. Good luck, and enjoy the analysis! This project not only tests your technical skills (NLP, data analysis, visualization) but also your ability to draw meaningful insights from data – a key skill for a research engineer in data science. We look forward to seeing your interactive dashboards and findings on this important topic of mental health in tech.
+
+- **Data Cleaning & Understanding (10%)**: Proper handling of data loading, missing values, and outliers. Evidence of understanding the dataset structure and context.
+- **Sentiment Analysis (20%)**: Quality of NLP analysis, including correct preprocessing of text, a sensible approach to classify sentiment, and accurate interpretation of results.
+- **Trend Analysis & Insights (25%)**: Depth of analysis for year-over-year trends, company comparisons, and demographic differences. Clear identification of at least two meaningful trends or patterns in the data.
+- **Visualizations & Dashboard (20%)**: Quality and clarity of visual presentations. The interactive dashboard (or static visual report) should be logically organized and allow a viewer to grasp key results.
+- **Communication & Documentation (15%)**: Clarity of writing in the report and comments in code. The narrative should explain what you found and how you found it.
+- **Technical Soundness (10%)**: Correct use of data science techniques. The code should run without errors and be reasonably optimized.
+- **Bonus: Predictive Modeling (Up to +10%)**: Successfully implementing the optional predictive task. Points will be awarded for a reasonable modeling approach, correct evaluation, and interpreting the results.
+
+### Grading Note
+
+A submission that meets all the core requirements (Tasks 1–3) with clarity and correctness can earn full credit (100%). The bonus task is truly extra. We will particularly reward thoughtful analysis – showing that you can think like a data scientist. This means exploring the data deeply, verifying assumptions, and not just generating charts but also explaining and interpreting them. Make sure your conclusions are supported by the data.
+
+Good luck, and enjoy the analysis! This project not only tests your technical skills (NLP, data analysis, visualization) but also your ability to draw meaningful insights from data – a key skill for a research engineer in data science. We look forward to seeing your interactive dashboards and findings on this important topic of mental health in tech.
