@@ -97,7 +97,7 @@ Your submission will be evaluated based on the following criteria:
 You will submit all your deleiverables on github repo, and please do mail me the link to your github repo at khawajamurad@outlook.com
 Please ensure you include:
 
-1.A detailed README file (with screenshots of your solution, a hosted web platform).
+1. A detailed README file (with screenshots of your solution, a hosted web platform).
 2. A text-based explanation of your code and thought process underlying system design.
 3. A link to a video recording of your dashboard hosted on YouTube or Google Drive.
 Both of these last two make it easier for us to run your code and evaluate the assignment.
