@@ -94,21 +94,35 @@ Your submission will be evaluated based on the following criteria:
 - **Technical Soundness (10%)**: Correct use of data science techniques. The code should run without errors and be reasonably optimized.
 - **Bonus: Predictive Modeling (Up to +10%)**: Successfully implementing the optional predictive task. Points will be awarded for a reasonable modeling approach, correct evaluation, and interpreting the results.
 ## Instruction for the submission
+These instructions outline how to use GitHub for this assignment.  Please follow them carefully to ensure your work is properly submitted.
 
-These instructions outline how to use GitHub for this assignment. Please follow them carefully to ensure your work is properly submitted.
+1. Fork the Repository:    
+   - Go to the assignment repository provided by the instructor: [Insert Repository Link Here] 
+   - Click the "Fork" button in the top right corner of the page. This creates a copy of the repository in your GitHub account. 
+  
+3. Clone Your Fork:
+   - Go to your forked repository (it will be in your GitHub account).
+   - Click the "Code" button (the green one) and copy the URL. This will be a git URL (ending in .git).
+   - Open a terminal or Git Bash on your local machine.
+   - Navigate to the directory where you want to work on the assignment using the cd command. For example: `cd /path/to/your/projects`.
+   - Clone your forked repository using the following command: git clone <your_forked_repository_url> (Replace <your_forked_repository_url> with the URL you copied).
+  
+   This will download the repository to your local machine.
 
-### Fork the Repository:
+4. Develop Your Solution
 
-Go to the assignment repository provided by the instructor: [Insert Repository Link Here]
-Click the "Fork" button in the top right corner of the page. This creates a copy of the repository in your GitHub account.
-### Clone Your Fork:
+   Work on your assignment within the cloned repository. Create your code files, visualizations, and any other required deliverables. Make sure to save your work regularly.
 
-Go to your forked repository (it will be in your GitHub account).
-Click the "Code" button (the green one) and copy the URL. This will be a git URL (ending in .git).
-Open a terminal or Git Bash on your local machine.
-Navigate to the directory where you want to work on the assignment using the cd command. For example: cd /path/to/your/projects.
-Clone your forked repository using the following command: git clone <your_forked_repository_url> (Replace <your_forked_repository_url> with the URL you copied).
-This will download the repository to your local machine.
+6. Commit Your Changes
+   - After making changes, you need to "stage" them for commit. This tells Git which changes you want to include in the next snapshot.
+   - Use the following command to stage all changes in the current directory:
+      - To add all the files - git add. 
+      - Or, if you want to stage-specific files - git add <file1> <file2> ...
+   - Now, commit your staged changes with a descriptive message- git commit -m "Your commit message here" (Replace "Your commit message here" with a brief1 description of the changes you made.2 Be clear and concise!)
+   - Push your commits back to your forked repository on GitHub- git push origin main (Or, if you're working on a branch other than main, replace main with your branch name. origin refers to the remote repository you cloned from). 
+
+7. Please notify us of your submission by emailing khawajamurad@outlook.com with the subject line "Submitting Research Engineer Intern Assignment".
+
 
 ### Develop Your Solution
 
@@ -123,7 +137,6 @@ Or, if you want to stage-specific files - git add ...
 Now, commit your staged changes with a descriptive message- git commit -m "Your commit message here" (Replace "Your commit message here" with a brief1 description of the changes you made.2 Be clear and concise!)
 Push your commits back to your forked repository on GitHub- git push origin main (Or, if you're working on a branch other than main, replace main with your branch name. origin refers to the remote repository you cloned from).
 ## Submission Requirements
-You will submit all your deleiverables on github repo, and please do mail me the link to your github repo at khawajamurad@outlook.com
 Please ensure you include:
 
 1. A detailed README file (with screenshots of your solution, a hosted web platform).
