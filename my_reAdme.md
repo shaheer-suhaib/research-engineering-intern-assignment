@@ -2,8 +2,7 @@
 
 YOU CAN VISIT THE HOSTED DASHBOARD HERE
 
-![view HOSTED Streamlit HERE]([https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white](https://mental-health-analysis-in-tech.streamlit.app/))
-
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mental-health-analysis-in-tech.streamlit.app/)
 
 An interactive dashboard analyzing mental health trends in the tech industry, deployed using Streamlit.
 
@@ -25,7 +24,7 @@ This project involved multiple steps to clean, process, and analyze mental healt
 
 ### 3. Feature Engineering
 - Categorized columns
-- Kept only columns appearing in ≤3 data frames
+- Kept only columns appearing in >2 data frames
 - Joined all data frames by columns
 - Renamed columns for clarity
 - Performed final dataset refinement
@@ -33,7 +32,6 @@ This project involved multiple steps to clean, process, and analyze mental healt
 ### 4. Data Encoding
 - Mapped company size categories to numerical values
 - Label encoded categorical columns
-- Converted binary columns to integer format
 
 ### 5. Exploratory Data Analysis (EDA)
 - Conducted comprehensive analysis
@@ -49,7 +47,7 @@ This project involved multiple steps to clean, process, and analyze mental healt
 
 The project was successfully deployed using Streamlit and made accessible on the Streamlit Community platform.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](your-streamlit-app-link-here)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mental-health-analysis-in-tech.streamlit.app/)
 
 ## Features
 - Interactive filters for demographic slicing
