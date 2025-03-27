@@ -1,6 +1,7 @@
 # Mental Health in Tech Dashboard
 
-![view HOSTED Streamlit HERE](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+YOU CAN VISIT THE HOSTED DASHBOARD HERE
+![view HOSTED Streamlit HERE]([https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white](https://mental-health-analysis-in-tech.streamlit.app/))
 
 
 An interactive dashboard analyzing mental health trends in the tech industry, deployed using Streamlit.
